@@ -835,6 +835,14 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
   }
 }
 
+.postgraphile-graphs-barchart-bg {
+  background-image: url("../../public/images/requests-per-second.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  min-height: 240px;
+}
+
 .postgraphile-logo-bg {
   background-image: url("../../logos/postgraphile.optimized.svg");
   background-size: contain;
